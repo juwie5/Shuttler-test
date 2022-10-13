@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$defaultfonts: 'Inter', sans-serif;
+$purple: #6941C6;
+$purple2: #7F56D9;
+$black: #101828;
+$grey : #667085;
+$grey2: #344054;
+$white: #FFFFFF;
+$white2: #EAECF0;
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: $defaultfonts;
+    background-color: #FFFFFF;
+}
