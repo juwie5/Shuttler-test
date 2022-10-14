@@ -15,15 +15,18 @@
         <img src="../assets/settings.svg" alt="">
       </div>
     </nav>
+
+    
     <HalfoneView/>
+      
+   
+   
   </div>
 </template>
 
 <script setup>
   import HalfoneView from '../components/HalfoneView.vue'
-
-
-  
+ 
 </script>
 
 <style lang="scss">

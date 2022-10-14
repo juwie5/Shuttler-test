@@ -63,8 +63,19 @@
     background-color: #EAECF0;
     width: 100%;
 }
+
+.sub-divide{
+    display: flex;
+}
+
 .sub{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
+.sub2{
+    width: 100%;
+    margin:  14px 0 0 32px;
+}
+

@@ -1,3 +1,61 @@
 .month{
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h3{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: $black;
+    }
 }
+
+.dot{
+    width: 8px;
+    height: 8px;
+    background-color: #12B76A;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.btn-group button {
+    background-color: $white; 
+    border: 1px solid #D0D5DD; 
+    color: #1D2939; 
+    padding: 10px 16px; 
+    cursor: pointer; 
+    float: left; 
+    width: 126px;
+    height: 40px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    img{
+        vertical-align: middle;
+    }
+}
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .btn-group button:nth-child(1){
+    border-radius: 8px 0 0 8px;
+    background-color: #F9FAFB;
+  }
+
+  .btn-group button:nth-child(3){
+    border-radius: 0 8px 8px 0;
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #F9FAFB;
+  }

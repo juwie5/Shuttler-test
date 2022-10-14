@@ -11,10 +11,15 @@
         </div>
       </header>
       <hr class="line">
-      <section class="sub">
-        <ActiveUsers/>
-        <RecentTransactions/>
-      </section>
+      <div class="sub-divide">
+        <section class="sub">
+          <ActiveUsers/>
+          <RecentTransactions/>
+        </section>
+        <section class="sub2">
+          <MontlySpending/>
+        </section>
+      </div>
       
   </div>
 </template>
@@ -22,6 +27,8 @@
 <script setup>
 import ActiveUsers from '../components/ActiveUsers.vue'
 import RecentTransactions from '../components/RecentTransactions.vue'
+import MontlySpending from './MontlySpending.vue';
+
 </script>
 
 <style>

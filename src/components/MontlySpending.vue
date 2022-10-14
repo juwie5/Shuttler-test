@@ -1,10 +1,12 @@
 <template>
     <div>
-        <section class="month">
-            <div class="act-top">
+        <section>
+            <div class="month">
                 <h3>Monthly spending</h3>
-               <div>
-
+               <div class="btn-group">
+                <button><span class="dot"></span>This month</button>
+                <button>Last month</button>
+                <button><img src="../assets/plus.svg" alt=""> Custom</button>
                </div>
             </div>
             <hr class="line">
@@ -14,9 +16,9 @@
 </template>
 
 <script setup>
-    import spending from '../utlis/spending.js'
+    // import spending from '../utlis/spending.js'
 
-    const spent = spending
+    // const spent = spending
 </script>
 
 <style lang="scss" scoped>
