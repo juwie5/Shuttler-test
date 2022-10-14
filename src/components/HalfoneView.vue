@@ -11,12 +11,17 @@
         </div>
       </header>
       <hr class="line">
-      <ActiveUsers/>
+      <section class="sub">
+        <ActiveUsers/>
+        <RecentTransactions/>
+      </section>
+      
   </div>
 </template>
 
 <script setup>
 import ActiveUsers from '../components/ActiveUsers.vue'
+import RecentTransactions from '../components/RecentTransactions.vue'
 </script>
 
 <style>

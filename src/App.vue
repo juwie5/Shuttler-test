@@ -12,4 +12,6 @@ import { RouterView } from 'vue-router'
 @import '../src/styles/navigationview.scss';
 @import '../src/styles/halfone.scss';
 @import '../src/styles/active.scss';
+@import '../src/styles/monthlyspending.scss';
+@import '../src/styles/recentransactions.scss';
 </style>
