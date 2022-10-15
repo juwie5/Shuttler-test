@@ -10,15 +10,34 @@
                </div>
             </div>
             <hr class="line">
+            <section class="dets">
+                <div class="month-dets">
+                    <div class="ring">
+                        <div class="inner-ring"></div>
+                    </div>
+                    <div class="ring-dets">
+                        <p>Total</p>
+                        <h2>$2,280</h2> 
+                    </div>     
+                </div>
+                <div class="spent-dets">
+                    <div v-for="item in spent" :key="item.index">
+                        <div class="desp">
+                            <p><span class="dot" :style="{'background-color': item.color}"></span>{{item.title}}</p>
+                            <h4>{{item.amount}}</h4>
+                        </div>
+                    </div>    
+                </div>
+            </section>
         </section>
-        <!-- <div v-for="item in spent  " :key="item.index">{{item}}</div> -->
+        
     </div>
 </template>
 
 <script setup>
-    // import spending from '../utlis/spending.js'
+    import spending from '../utlis/spending.js'
 
-    // const spent = spending
+    const spent = spending
 </script>
 
 <style lang="scss" scoped>

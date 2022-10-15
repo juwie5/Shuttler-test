@@ -19,7 +19,7 @@
             <div class="act-list">
                 <img src="../assets/IN.svg" alt="">
                 <div class="state">
-                    <p>India &nbsp</p>
+                    <p>India &nbsp;</p>
                     <div class="progress">
                         <div class="level thrity"></div>   
                     </div>

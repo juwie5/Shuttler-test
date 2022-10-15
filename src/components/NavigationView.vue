@@ -15,12 +15,7 @@
         <img src="../assets/settings.svg" alt="">
       </div>
     </nav>
-
-    
     <HalfoneView/>
-      
-   
-   
   </div>
 </template>
 
