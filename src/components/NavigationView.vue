@@ -5,7 +5,7 @@
         <img src="../assets/Logo.svg" alt="">
         <img src="../assets/home.svg" alt="">
         <img src="../assets/bell.svg" alt="">
-        <img src="../assets/stack.svg" alt="">
+        <img id="stack" src="../assets/stack.svg" alt="">
         <img src="../assets/check.svg" alt="">
         <img src="../assets/flag.svg" alt="">
         <img src="../assets/people.svg" alt="">
@@ -13,6 +13,9 @@
       <div class="navset">
         <img src="../assets/sheild.svg" alt="">
         <img src="../assets/settings.svg" alt="">
+      </div>
+      <div>
+        hello
       </div>
     </nav>
     <HalfoneView/>
