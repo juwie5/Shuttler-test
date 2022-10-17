@@ -31,8 +31,14 @@
         border: 2px solid #7F56D9;
         padding: 12px;
         border-radius: 6px;
-        background-color: #7F56D9;   
+        background-color: #7F56D9;
     }
+}
+.hover{
+        border: 2px solid #7F56D9;
+        padding: 12px;
+        border-radius: 6px;
+        background-color: #7F56D9;
 }
 .navset:nth-child(1){
     margin-top: 32px;
@@ -103,7 +109,7 @@
     background-color: #7F56D9;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 475px){
+@media only screen and (max-width: 768px){
     .nav{
         display: none;
     }

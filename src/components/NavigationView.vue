@@ -2,7 +2,7 @@
   <div>
     <nav class="nav">
       <div class="inner-nav">
-        <div class="navset">
+        <div class="navset" ref="navset">
             <img src="../assets/Logo.svg" alt="">
             <img src="../assets/home.svg" alt="">
             <img src="../assets/bell.svg" alt="">
@@ -59,15 +59,23 @@
 
 <script setup>
   import HalfoneView from '../components/HalfoneView.vue'
-  import { ref  } from 'vue'
+  import { ref , onMounted } from 'vue'
 
 const show = ref(false);
+const navset = ref('null');
 
   function hideStack(){
     show.value = !show.value;  
   }
+//   function hover(){
+//     const element = navset.value.children
+//     for ( let el of element)
+//      el.classList.add("hover")
+//   }
 
+// onMounted(() => {
 
+// })
 </script>
 
 <style lang="scss">
