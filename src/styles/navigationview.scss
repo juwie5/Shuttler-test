@@ -25,6 +25,13 @@
     align-items: center;
     img{
         padding: 15px 0;
+        margin-bottom: 3px;
+    }
+    img:hover{
+        border: 2px solid #7F56D9;
+        padding: 12px;
+        border-radius: 6px;
+        background-color: #7F56D9;   
     }
 }
 .navset:nth-child(1){
