@@ -1,21 +1,52 @@
 <template>
   <div>
     <nav class="nav">
-      <div class="navset">
-        <img src="../assets/Logo.svg" alt="">
-        <img src="../assets/home.svg" alt="">
-        <img src="../assets/bell.svg" alt="">
-        <img id="stack" src="../assets/stack.svg" alt="">
-        <img src="../assets/check.svg" alt="">
-        <img src="../assets/flag.svg" alt="">
-        <img src="../assets/people.svg" alt="">
+      <div class="inner-nav">
+        <div class="navset">
+            <img src="../assets/Logo.svg" alt="">
+            <img src="../assets/home.svg" alt="">
+            <img src="../assets/bell.svg" alt="">
+            <img id="stack" src="../assets/stack.svg" alt="" @click="hideStack">
+            <img src="../assets/check.svg" alt="">
+            <img src="../assets/flag.svg" alt="">
+            <img src="../assets/people.svg" alt="">
+       </div>
+        <div class="navset">
+          <img src="../assets/sheild.svg" alt="">
+          <img src="../assets/settings.svg" alt="">
+        </div>
       </div>
-      <div class="navset">
-        <img src="../assets/sheild.svg" alt="">
-        <img src="../assets/settings.svg" alt="">
-      </div>
-      <div>
-        hello
+      <div class="sub-nav" ref="stack" v-show="show">
+        <h3>Dashboard</h3>
+        <div class="sub-nav-item halo">
+          <img src="../assets/pulse.svg" alt="">
+          <h4>Overview</h4>
+        </div>
+        <div class="sub-nav-item">
+          <img src="../assets/bell.svg" alt="">
+          <h4>Notifications</h4>
+          <p>10</p>
+        </div>
+        <div class="sub-nav-item">
+          <img src="../assets/wifi.svg" alt="">
+          <h4>Analytics</h4>
+        </div>
+        <div class="sub-nav-item">
+          <img src="../assets/star.svg" alt="">
+          <h4>Saved Reports</h4>
+        </div>
+        <div class="sub-nav-item">
+          <img src="../assets/clock.svg" alt="">
+          <h4>Scheduled Reports</h4>
+        </div>
+        <div class="sub-nav-item">
+          <img src="../assets/people.svg" alt="">
+          <h4>User reports</h4>
+        </div>
+        <div class="sub-nav-item">
+          <img src="../assets/settings.svg" alt="">
+          <h4>Manage Notifications</h4>
+        </div>
       </div>
     </nav>
     <HalfoneView/>
@@ -24,7 +55,17 @@
 
 <script setup>
   import HalfoneView from '../components/HalfoneView.vue'
- 
+  import { ref  } from 'vue'
+
+const show = ref(false);
+
+  function hideStack(){
+    show.value = !show.value;  
+  }
+
+
+
+
 </script>
 
 <style lang="scss">
