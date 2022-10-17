@@ -19,6 +19,7 @@
         <section class="sub2">
           <MontlySpending/>
           <BalanceOverT/>
+          <SpendingOverT/>
         </section>
       </div>
       
@@ -30,6 +31,7 @@ import ActiveUsers from '../components/ActiveUsers.vue'
 import RecentTransactions from '../components/RecentTransactions.vue'
 import MontlySpending from './MontlySpending.vue';
 import BalanceOverT from './BalanceOverT.vue';
+import SpendingOverT from './SpendingOverT.vue'
 
 </script>
 

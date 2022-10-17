@@ -79,3 +79,30 @@
     margin:  14px 0 0 32px;
 }
 
+
+@media only screen and (min-width: 320px) and (max-width: 475px){
+    .contain{
+        margin: 0 16px;
+    }
+    .top{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        h2{
+            font-size: 24px;
+            line-height: 32px;
+        }
+        p{
+            margin-bottom: 16px;
+        }
+    }
+    .sub-divide{
+        flex-direction: column;
+    }
+    .sub2{
+        margin: 0;
+    }
+    .line{
+        width: 100%;
+    }
+}

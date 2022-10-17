@@ -6,7 +6,8 @@
                <div class="btn-group">
                 <button><span class="dot"></span>This month</button>
                 <button>Last month</button>
-                <button><img src="../assets/plus.svg" alt=""> Custom</button>
+                <button class="show"><img src="../assets/plus.svg" alt=""> Custom</button>
+                <button id="hide"><img src="../assets/circle.svg" alt=""></button>
                </div>
             </div>
             <hr class="line">
@@ -41,5 +42,6 @@
 </script>
 
 <style lang="scss" scoped>
+
 
 </style>
