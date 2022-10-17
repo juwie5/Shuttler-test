@@ -5,6 +5,11 @@
     height: 100%;
     background-color: #53389E;
 }
+
+.mob-nav{
+    display: none;
+}
+
 .inner-nav{
     background-color: $purple;
     left: 0;
@@ -94,5 +99,10 @@
 @media only screen and (min-width: 320px) and (max-width: 475px){
     .nav{
         display: none;
+    }
+    .mob-nav{
+        display: flex;
+        justify-content: space-between;
+        margin: 16px 26px 0 16px;
     }
 }

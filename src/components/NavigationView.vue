@@ -49,6 +49,10 @@
         </div>
       </div>
     </nav>
+    <div class="mob-nav">
+        <img src="../assets/mod-logo.svg" alt="">
+        <img src="../assets/mob-menu.svg" alt="">
+    </div>
     <HalfoneView/>
   </div>
 </template>
@@ -62,8 +66,6 @@ const show = ref(false);
   function hideStack(){
     show.value = !show.value;  
   }
-
-
 
 
 </script>
